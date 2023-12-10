@@ -2,4 +2,7 @@
     <string name="app_name">BuyEase</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_text">Login</string>
+    <string name="forget">Forgot your password?</string>
+    <string name="login_with">Or login with social account</string>
 </resources>

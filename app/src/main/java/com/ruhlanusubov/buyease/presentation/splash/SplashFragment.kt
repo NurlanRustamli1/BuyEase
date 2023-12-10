@@ -10,7 +10,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.ruhlanusubov.buyease.R
 import com.ruhlanusubov.buyease.databinding.FragmentSplashBinding
-import com.ruhlanusubov.buyease.presentation.utils.transition
+import com.ruhlanusubov.buyease.presentation.utils.splashTransition
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -31,7 +31,7 @@ class SplashFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        transition(this)
+        splashTransition(this,SplashFragmentDirections.actionSplashFragmentToLoginFragment())
     }
 
     override fun onDestroy() {
