@@ -1,4 +1,4 @@
-package com.ruhlanusubov.buyease.presentation
+package com.ruhlanusubov.buyease.presentation.validation
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

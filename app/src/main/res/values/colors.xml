@@ -5,4 +5,6 @@
     <color name="red">#d89999</color>
     <color name="red_A">#750000</color>
     <color name="back">#F9F9F9</color>
+    <color name="grey">#9B9B9B</color>
+    <color name="main_color">#DB3022</color>
 </resources>

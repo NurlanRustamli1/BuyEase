@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.ruhlanusubov.buyease.presentation.LoginFragment"
+        android:name="com.ruhlanusubov.buyease.presentation.validation.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
 </navigation>
